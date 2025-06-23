@@ -1,0 +1,16 @@
+{
+  "a64ed21a-a568-451d-a250-03459bbeaf48": {
+    "id": "a64ed21a-a568-451d-a250-03459bbeaf48",
+    "role": "Customer",
+    "name": "Customer User",
+    "email": "customer@example.com",
+    "password": "secret"
+  },
+  "dd9c6c5d-1388-4fb1-91e3-88f627a87f53": {
+    "id": "dd9c6c5d-1388-4fb1-91e3-88f627a87f53",
+    "role": "Admin",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "secret"
+  }
+}

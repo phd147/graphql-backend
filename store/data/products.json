@@ -1,0 +1,130 @@
+{
+  "089663f3-4fcf-4373-b5da-7c313eadd917": {
+    "id": "089663f3-4fcf-4373-b5da-7c313eadd917",
+    "name": "ListProduct",
+    "description": "desc",
+    "price": 5,
+    "category": "ListCat",
+    "inStock": 3
+  },
+  "0e9ae54a-94ef-48a9-952a-d2d720add0cd": {
+    "id": "0e9ae54a-94ef-48a9-952a-d2d720add0cd",
+    "name": "Test Product",
+    "description": "desc",
+    "price": 10.5,
+    "category": "TestCat",
+    "inStock": 5
+  },
+  "1360b417-1759-4ccb-ad2c-5fc49b4855fb": {
+    "id": "1360b417-1759-4ccb-ad2c-5fc49b4855fb",
+    "name": "OrderListProduct",
+    "description": "desc",
+    "price": 15,
+    "category": "OrderListCat",
+    "inStock": 7
+  },
+  "1cb9ad0b-1a9c-4832-8768-b9a696d13ca6": {
+    "id": "1cb9ad0b-1a9c-4832-8768-b9a696d13ca6",
+    "name": "OrderProduct",
+    "description": "desc",
+    "price": 20,
+    "category": "OrderCat",
+    "inStock": 10
+  },
+  "1dc1a76f-f8d9-4eb4-ae56-9ea360e57e17": {
+    "id": "1dc1a76f-f8d9-4eb4-ae56-9ea360e57e17",
+    "name": "OrderGetProduct",
+    "description": "desc",
+    "price": 25,
+    "category": "OrderGetCat",
+    "inStock": 8
+  },
+  "231f73d8-21c5-471b-b0cc-b67680c3ebaa": {
+    "id": "231f73d8-21c5-471b-b0cc-b67680c3ebaa",
+    "name": "ListProduct",
+    "description": "desc",
+    "price": 5,
+    "category": "ListCat",
+    "inStock": 3
+  },
+  "34b3eb2e-1fde-4eab-a03b-669015c97bee": {
+    "id": "34b3eb2e-1fde-4eab-a03b-669015c97bee",
+    "name": "OrderGetProduct",
+    "description": "desc",
+    "price": 25,
+    "category": "OrderGetCat",
+    "inStock": 8
+  },
+  "6b2e1123-64e1-47d7-9933-a9be4cc129c4": {
+    "id": "6b2e1123-64e1-47d7-9933-a9be4cc129c4",
+    "name": "Integration Product",
+    "description": "Integration test product",
+    "price": 99.99,
+    "category": "Integration",
+    "inStock": 10
+  },
+  "7183e9dc-7802-437b-8831-9d421457f199": {
+    "id": "7183e9dc-7802-437b-8831-9d421457f199",
+    "name": "UpdatedName",
+    "description": "updated desc",
+    "price": 2,
+    "category": "UpdatedCat",
+    "inStock": 2
+  },
+  "a95200bd-7feb-4703-afca-394a9b2361c6": {
+    "id": "a95200bd-7feb-4703-afca-394a9b2361c6",
+    "name": "Integration Product",
+    "description": "Integration test product",
+    "price": 99.99,
+    "category": "Integration",
+    "inStock": 10
+  },
+  "b280d0a7-cdf7-4ce8-b030-56a4e1bedf15": {
+    "id": "b280d0a7-cdf7-4ce8-b030-56a4e1bedf15",
+    "name": "OrderListProduct",
+    "description": "desc",
+    "price": 15,
+    "category": "OrderListCat",
+    "inStock": 7
+  },
+  "b986092d-82ae-4b67-b6ff-94b81ddd412f": {
+    "id": "b986092d-82ae-4b67-b6ff-94b81ddd412f",
+    "name": "OrderListProduct",
+    "description": "desc",
+    "price": 15,
+    "category": "OrderListCat",
+    "inStock": 7
+  },
+  "cd651ec3-90bd-4e82-b3d8-4bfb310a2162": {
+    "id": "cd651ec3-90bd-4e82-b3d8-4bfb310a2162",
+    "name": "UpdatedName",
+    "description": "updated desc",
+    "price": 2,
+    "category": "UpdatedCat",
+    "inStock": 2
+  },
+  "cdffc5b2-15af-480c-983c-0bf3a6535726": {
+    "id": "cdffc5b2-15af-480c-983c-0bf3a6535726",
+    "name": "iphone 20",
+    "description": "iphone desc",
+    "price": 1000,
+    "category": "mobile-phone",
+    "inStock": 88
+  },
+  "ef2db5b1-b805-43af-be50-d9a46fae3599": {
+    "id": "ef2db5b1-b805-43af-be50-d9a46fae3599",
+    "name": "Test Product",
+    "description": "desc",
+    "price": 10.5,
+    "category": "TestCat",
+    "inStock": 5
+  },
+  "f5c2af2e-1aa5-47b6-b50f-1390286838b0": {
+    "id": "f5c2af2e-1aa5-47b6-b50f-1390286838b0",
+    "name": "OrderListProduct",
+    "description": "desc",
+    "price": 15,
+    "category": "OrderListCat",
+    "inStock": 7
+  }
+}

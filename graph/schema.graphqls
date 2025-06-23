@@ -1,0 +1,75 @@
+type Product {
+  id: ID!
+  name: String!
+  price: Float!
+  inStock: Int!
+  description: String
+  category: String!
+}
+
+type Order {
+  id: ID!
+  products: [Product!]!
+  total: Float!
+  createdAt: String!
+  status: String!
+  user: User!
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+}
+
+type AuthPayload {
+  accessToken: String!
+  refreshToken: String!
+  user: User!
+}
+
+input CreateProductInput {
+  name: String!
+  price: Float!
+  inStock: Int!
+  description: String
+  category: String!
+}
+
+input UpdateProductInput {
+  id: ID!
+  name: String
+  price: Float
+  inStock: Int
+  description: String
+  category: String
+}
+
+input LoginInput {
+  email: String!
+  password: String!
+}
+
+type Query {
+  products(limit: Int, offset: Int, category: String): [Product!]! @hasAuthenticated
+  product(id: ID!): Product @hasAuthenticated
+  orders(limit: Int, offset: Int): [Order!]! @hasAuthenticated
+  order(id: ID!): Order @hasAuthenticated
+  me: User @hasAuthenticated
+}
+
+type Mutation {
+  createProduct(input: CreateProductInput!): Product! @hasRole(role: Admin)
+  updateProduct(input: UpdateProductInput!): Product! @hasRole(role: Admin)
+  placeOrder(productIds: [ID!]!): Order! @hasAuthenticated
+  login(input: LoginInput!): AuthPayload!
+}
+
+directive @hasRole(role: Role!) on FIELD_DEFINITION
+directive @hasAuthenticated on FIELD_DEFINITION
+
+enum Role {
+  Admin
+  Customer
+}
+
